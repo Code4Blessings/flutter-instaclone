@@ -13,7 +13,7 @@ class HomePage extends StatelessWidget {
           ),
         ],
         title: Text(
-          'Trendy Girl',
+          'Patty Cakes',
           style: TextStyle(
             fontSize: 20.0,
             fontWeight: FontWeight.bold,
@@ -24,20 +24,7 @@ class HomePage extends StatelessWidget {
         backgroundColor: Colors.green,
         
       ),
-      body: Image.asset('assets/header-background.png'),
-      floatingActionButton: FloatingActionButton(
-        onPressed: () {},
-        child: Text(
-          '+',
-          style: TextStyle(
-             fontSize: 20.0,
-            fontWeight: FontWeight.bold,
-            letterSpacing: 2.0,
-            color: Colors.black
-          ),
-        ),
-        backgroundColor: Colors.green,
-      ),
+      body: 
     );
   }
 }
